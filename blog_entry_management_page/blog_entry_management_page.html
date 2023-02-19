@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Website Development Blog</title>
+        <link rel="stylesheet" href="blog_entry_management_page.css"/>
+    </head>
+    <body>
+        <h1 class="blog_management_page_main_header">Blog Post Management Page</h1>
+        <div class="entry_management_type_choice_panel">
+            <button class="create_entry_btn">Create A New Blog Post</button>
+            <button class="manage_entries_btn">Manage Existing Blog Posts</button>
+            <button class="home_btn">Back To Homepage</button>
+        </div>
+        <div class="create_entry_panel">
+            <div class="entry_details_grid">
+                <p class="entry_title_label">Title: </p>
+                <textarea class="entry_title_input_box"></textarea>
+                <p class="entry_content_label">Content: </p>
+                <textarea class="entry_content_input_box"></textarea>
+            </div>
+            <div class="entry_creation_panel_btns_div">
+                <button class="complete_entry_creation_btn">Create</button>
+                <button class="cancel_entry_creation_btn">Cancel</button>
+            </div>
+            <popup class="entry_creation_status_popup"></popup>
+        </div>
+        <div class="manage_entries_panel">
+            <div class="entry_management_fields_div">
+                <div class="entry_choice_field_div">
+                    <p>Selected Blog Post:</p>
+                    <select class="blog_entry_selection_box"></select>
+                </div>
+                <div class="entry_title_preview_and_editor_div">
+                    <p class="entry_title_preview_and_editor_label">Title of currently selected post:</p>
+                    <textarea class="entry_title_preview_and_editor_input_box"></textarea>
+                </div>
+                <div class="entry_content_preview_and_editor_div">
+                    <p class="entry_content_preview_and_editor_label">Content of currently selected post:</p>
+                    <textarea class="entry_content_preview_and_editor_input_box"></textarea>
+                </div>
+                <div class="entry_management_action_fields_div">
+                    <button class="edit_entry_btn">Edit Post</button>
+                    <button class="delete_entry_btn">Delete Post</button>
+                    <button class="cancel_management_btn">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="../blog_core_lib_dir/blog_core_lib.js"></script>
+    <script src="blog_entry_management_page.js"></script>
+</html>

@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(70, 122, 123);
+    font-family: 'Segoe UI';
+}
+
+button {
+    background-color: rgb(101, 180, 182);
+    border-color: rgb(90, 90, 90);
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 4px;
+    min-width: 30px;
+    font-family: 'Segoe UI';
+    padding: 6px;
+    flex-basis: 16%;
+}
+
+.entry_details_grid {
+    display: grid;
+    grid-template-columns: 10% 20%;
+    column-gap: 30px;
+    grid-template-rows: auto auto;
+    row-gap: 20px;
+}
+
+.entry_management_type_choice_panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(100, 157, 158);
+    padding: 10px;
+}
+
+.blog_management_page_main_header {
+    text-align: center;
+}
+
+.create_entry_panel {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30%;
+    padding-right: 30%;
+    row-gap: 30px;
+    align-items: center;
+}
+
+.complete_entry_creation_btn {
+    padding: 6px;
+    min-width: 180px;
+}
+
+.cancel_entry_creation_btn {
+    padding: 6px;
+    min-width: 180px;
+}
+
+.entry_title_input_box {
+    min-width: 430px;
+    height: 20px;
+    align-self: center;
+}
+
+.entry_content_input_box {
+    min-width: 430px;
+    height: 120px;
+    align-self: center;
+}
+
+.entry_title_label .entry_content_label {
+    align-self: center;
+}
+
+.entry_management_fields_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    row-gap: 30px;
+}
+
+.entry_choice_field_div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    flex-grow: 1;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.blog_entry_selection_box {
+    flex-grow: 1;
+    height: 30px;
+    font-family: 'Segoe UI';
+}
+
+.entry_title_preview_and_editor_div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.entry_content_preview_and_editor_div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.entry_title_preview_and_editor_input_box {
+    font-family: 'Segoe UI';
+    flex-grow: 1;
+    height: 30px;
+}
+
+.entry_content_preview_and_editor_input_box {
+    font-family: 'Segoe UI';
+    flex-grow: 1;
+    height: 30px;
+}
+
+.entry_management_action_fields_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(100, 157, 158);
+    padding: 10px;
+}
+
+.entry_creation_panel_btns_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(100, 157, 158);
+    padding: 10px;
+    column-gap: 30px;
+}
